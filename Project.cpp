@@ -1,10 +1,11 @@
 #include <iostream>
+#include <string>
 
 using namespace::std;
 
 int main(){
-    int help;
+    string help;
     cout<<"PLEASE PLEASE PLEASE\n";
-    cin >> help;
+    getline(cin,help);
     cout << help<<"\n";
 }
